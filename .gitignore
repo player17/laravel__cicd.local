@@ -8,8 +8,10 @@
 .env
 .env.backup
 .env.production
+.env.local
 .phpunit.result.cache
 docker-compose.prod.yml
+docker-compose.local.yml
 Homestead.json
 Homestead.yaml
 auth.json
