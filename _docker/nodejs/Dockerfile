@@ -13,5 +13,7 @@ USER node
 EXPOSE 5173
 
 # https://github.com/vitejs/vite/discussions/3396
-# CMD ["sh", "-c", "npm install && npm run build"]
-CMD ["sh", "-c", "npm install && npm run dev -- --host"]
+# Прод
+CMD ["sh", "-c", "npm install && npm run build"]
+# Разработка
+# CMD ["sh", "-c", "npm install && npm run dev -- --host"]
